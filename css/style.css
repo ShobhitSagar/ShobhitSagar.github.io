@@ -1,0 +1,123 @@
+.navbar{
+	margin: 0;
+	border-radius: 0;
+	background-color: #121212;
+	border: 0;
+	color: #FFFFFF;
+	padding: 10px;
+	font-size: 1.3em;
+}
+
+.navbar-brand{
+	float: left;
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+
+.myLogo{
+	max-height: 55px;
+}
+
+.navbar-inverse .navbar-nav .active a, 
+.navbar-inverse .navbar-nav .active a:focus, 
+.navbar-inverse .navbar-nav .active a:hover {
+	color: #FFF;
+	background-color: #121212;
+}
+
+h2{
+	font-size: 40px;
+}
+h3{
+	font-size: 30px;
+}
+.container{
+	font-size: 20px;
+	margin-top: 2%;
+}
+
+.carousel-caption{
+	border-radius: 20px;
+	top: 30%;
+	bottom: 30%;
+	/*opacity: 0.5;*/
+	background: #FFFFFF;
+	padding: 10px;
+}
+
+#crHeading{
+	color: #000000;
+}
+
+#logoName{
+	margin-left: 10px;
+	font-size: 38px;
+	font-family: monospace;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.rowImage{
+	margin-top: 6%;
+}
+
+.row2Image{
+	margin-top: 10%;
+}
+
+.row3{
+	margin-top: 3%;
+}
+
+.icon{
+	max-height: 120px;
+}
+
+footer{
+	width: 100%;
+	background-color: #121212;
+	padding: 5%;
+	color: #FFF;
+}
+
+.fa{
+	padding: 10px;
+	font-size: 25px;
+	color: #FFF;
+}
+
+.fa:hover{
+	color: #D5D5D5;
+	text-decoration: none;
+}
+
+.container-fluid2{
+	margin-top: 2%;
+}
+
+@media (max-width: 800px) {
+	#logoName{
+		display: none;
+	}
+
+	#crHeading{
+		font-size: 15px;
+	}
+
+	#secondPara{
+		margin-top: 6%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
