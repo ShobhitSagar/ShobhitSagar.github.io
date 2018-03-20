@@ -104,6 +104,10 @@ footer{
 		display: none;
 	}
 
+	#myCarousel{
+		margin-top: 75px;
+	}
+
 	#crHeading{
 		font-size: 15px;
 	}
