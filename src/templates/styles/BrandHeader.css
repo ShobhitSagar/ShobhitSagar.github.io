@@ -1,0 +1,32 @@
+#brand-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+#SiCodeigniter {
+    color: #ccc;
+    opacity: .2;
+    position: absolute;
+    z-index: -4;
+}
+
+#brand-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+strong {
+    color: #212121;
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 15px;
+}
+
+sub {
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(122, 122, 122);
+}
