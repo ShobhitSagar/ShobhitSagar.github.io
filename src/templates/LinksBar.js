@@ -8,7 +8,7 @@ function LinksBar() {
             <a id='ALink' href='https://shobhitsagar.github.io/portfolio/' 
             target='_blank'>Portfolio</a>
             <ALink id='ALink' href='#profile-desc'>About Me</ALink>
-            <ALink id='ALink'>Services</ALink>
+            <ALink id='ALink'>Blogs</ALink>
             <ALink id='ALink'>Contact</ALink>
         </div>
     )
