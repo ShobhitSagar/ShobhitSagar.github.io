@@ -1,12 +1,15 @@
 import React from 'react'
 import './styles/Profile.css'
+import { BiHappyBeaming } from 'react-icons/bi'
+import { Link } from 'react-scroll'
 
 function Profile() {
     return (
         <div id='profile-div'>
             <div id="profile-pic"></div>
             <div id='profile-desc'>
-                <h1>Hi, I'm Shobhit</h1>
+                <h1>Hi, </h1>
+                <h1>I'm Shobhit <BiHappyBeaming /></h1>
                 <br />
                 <h3>A simp programmer, based in India.</h3>
                 <br />
@@ -15,7 +18,7 @@ function Profile() {
                 </span>
                 <br />
                 <br />
-                <button>MORE ABOUT ME</button>
+                <Link id='button' to='about-me' smooth={true}>MORE ABOUT ME</Link>
             </div>
         </div>
     )

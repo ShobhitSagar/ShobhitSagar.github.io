@@ -2,6 +2,12 @@ import './App.css';
 import BrandHeader from './templates/BrandHeader'
 import LinksBar from './templates/LinksBar'
 import Profile from './templates/Profile'
+import AboutMe from './templates/AboutMe/AboutMe'
+import Projects from './templates/Projects'
+import Blogs from './templates/Blogs'
+import Contact from './templates/Contact'
+import Connect from './templates/Connect'
+import ScrollToTop from 'react-scroll-to-top';
 
 function App() {
   return (
@@ -9,10 +15,12 @@ function App() {
       <BrandHeader />
       <LinksBar />
       <Profile />
-      <div id='work-in-progress-div'>
-        <b>Work in progress. . .</b>
-        <iframe src="https://giphy.com/embed/fVeAI9dyD5ssIFyOyM" width="100%" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-      </div>
+      <AboutMe />
+      <Projects />
+      <Blogs />
+      <Contact />
+      <Connect />
+      <ScrollToTop smooth style={{padding: '8px'}} />
     </div>
   );
 }
