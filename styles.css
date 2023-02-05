@@ -197,3 +197,13 @@
 .right_main_content_li .link_btn:hover .link_btn_arrow {
     margin-left: 6px;
 }
+
+@media only screen and (max-width: 800px) {
+    #root {
+        flex-direction: column;
+    }
+
+    #main_left_sec, #main_right_sec {
+        width: 100%;
+    }
+}
