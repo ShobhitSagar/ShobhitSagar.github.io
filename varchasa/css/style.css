@@ -7,7 +7,6 @@
 .birthday_div {
   width: 100vw;
   height: 100vh;
-  background-color: hsl(0, 0%, 94%);
   display: grid;
   place-items: center;
   position: fixed;

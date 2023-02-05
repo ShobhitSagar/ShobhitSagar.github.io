@@ -649,9 +649,17 @@
         var dd = String(today.getDate()).padStart(2, '0');
         var mm = String(today.getMonth() + 1).padStart(2, '0');
   
-        if (dd == 5 && mm == 2) {
-          startit();
-          showBtn();
+        if (dd == 6 && mm == 2) {
+            document.getElementById("root").classList.add("animate__animated");
+            document.getElementById("root").classList.add("animate__fadeInUp");
+            startit();
+            showBtn();
+        } else {
+            document.getElementById("root").classList.remove("animate__animated");
+            document.getElementById("root").classList.remove("animate__fadeInUp");
+            document.getElementById("birthday_div").style.display = "none";
+            document.getElementById("root").style.display = "block";
+            continueToWebsite();
         }
       //   stopit();
       </script>
